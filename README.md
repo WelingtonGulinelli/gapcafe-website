@@ -1,6 +1,6 @@
 # GapCafé Website
 
-Este é o repositório para o site institucional da GapCafé, uma plataforma moderna para conectar produtores e consumidores de café.
+Este é o repositório para o site institucional da GapCafé.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -26,7 +26,7 @@ Siga os passos abaixo para configurar e rodar o projeto em seu ambiente de desen
 
 1.  Clone o repositório para a sua máquina local:
     ```bash
-    git clone https://github.com/seu-usuario/gapcafe-website.git
+    git clone https://github.com/WelingtonGulinelli/gapcafe-website.git
     ```
 
 2.  Navegue até o diretório do projeto:
@@ -36,7 +36,7 @@ Siga os passos abaixo para configurar e rodar o projeto em seu ambiente de desen
 
 3.  Instale as dependências do projeto com `pnpm`:
     ```bash
-    pnpm install
+    npm install
     ```
 
 ### Executando o Servidor de Desenvolvimento
@@ -44,7 +44,7 @@ Siga os passos abaixo para configurar e rodar o projeto em seu ambiente de desen
 Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
@@ -55,7 +55,7 @@ O servidor irá recarregar automaticamente sempre que você fizer alterações n
 
 No arquivo `package.json`, você encontrará os seguintes scripts:
 
--   `pnpm dev`: Inicia o servidor de desenvolvimento.
--   `pnpm build`: Gera a versão de produção do site.
--   `pnpm start`: Inicia um servidor de produção após o build.
--   `pnpm lint`: Executa o linter para verificar erros de código.
+-   `npm dev`: Inicia o servidor de desenvolvimento.
+-   `npm build`: Gera a versão de produção do site.
+-   `npm start`: Inicia um servidor de produção após o build.
+-   `npm lint`: Executa o linter para verificar erros de código.
